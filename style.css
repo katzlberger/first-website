@@ -13,3 +13,43 @@ p{
 	border-radius: 10px;
 	border: 12px hotpink dotted;
 }
+
+body{
+	font-family: sans-serif;
+	margin: 5rem;
+	padding: 2rem;
+	border: 5px hotpink dashed;
+	border-radius: 4rem;
+}
+
+.roman-list{
+	list-style: upper-roman;
+}
+
+.roman-list ul{
+	list-style: square;
+}
+
+li:hover{
+	color: red;
+}
+
+p:hover{
+	background-color: green;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td,th{
+	border-bottom: 1px solid black;
+	min-width: 8rem;
+	text-align: center;
+}
+
+tbody > tr:hover{
+	background-color: #00ff23;
+	color: coral;
+	font-weight: bold;
+}
